@@ -2,7 +2,7 @@ import requests
 import concurrent.futures
 
 # .txt file of proxies that you want to test
-with open('random_proxy.txt') as f:
+with open('txt/random_proxy.txt') as f:
     proxylist = f.read().splitlines()
 
 proxy_test = '87.103.175.250:9812'
