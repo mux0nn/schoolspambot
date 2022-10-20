@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-file = open('comments_21lo.txt', 'w', encoding = 'utf-8')
+file = open('txt/comments_21lo.txt', 'w', encoding = 'utf-8')
 
 url_21lo = 'https://waszaedukacja.pl/ponadgimnazjalne/xxi-liceum-im-hugona-kollataja-warszawa-194'
 url_tech = 'https://waszaedukacja.pl/ponadgimnazjalne/technikum-gastronomiczno-hotelarskie-nr-1-warszawa-357'
