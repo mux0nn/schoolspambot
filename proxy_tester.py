@@ -21,10 +21,6 @@ def extract(proxy):
 with concurrent.futures.ThreadPoolExecutor() as executor:
     executor.map(extract, proxylist)
 
-
-#response = requests.get('https://httpbin.org/ip', proxies = {'http': proxy_test, 'https': proxy_test}, timeout = 3)
-#print(response.json())
-#print(response.status_code)
 def write_proxies_to_file():
     goodproxylist = open('good_proxy.txt', 'w')
     for i in good_proxies:
