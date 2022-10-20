@@ -24,7 +24,7 @@ for comment in window.find_elements_by_class_name('komentarz'):
     comments.append(comment.text)
     nr+=1
 
-#sort comments from the oldest to newest
+#sort comments from oldest to newest
 comments.reverse()
 
 for comment in comments:
