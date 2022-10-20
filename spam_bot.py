@@ -13,8 +13,6 @@ print(proxy_list)
 with open('comments_21lo.txt', encoding='utf-8') as f:
     comments = f.read().splitlines()
 
-
-proxy_test = '54.93.165.96:39593'
 url = 'https://waszaedukacja.pl/ajax/opinia'
 
 def create_data_21lo(text):
@@ -78,7 +76,3 @@ while len(proxy_list) > 0:
 cprint(f'~~~~~~ You managed to spam {spam_counter} comments! ~~~~~~', color=Pantone.TURQUOISE)
 
 end = input('Press enter to close: ')
-#response = requests.post(url, data=data_tech, proxies = {'http': proxy, 'https': proxy}, timeout = 3)
-
-#print(response.text)
-#print(response)
