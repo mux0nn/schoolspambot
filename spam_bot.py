@@ -5,7 +5,7 @@ import os
 os.system('color')
 
 #choose .txt file containing good proxies
-with open('all_proxies.txt') as f:
+with open('txt/all_proxies.txt') as f:
     proxy_list = f.read().splitlines()
 print(proxy_list)
 
